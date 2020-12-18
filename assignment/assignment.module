@@ -1,0 +1,12 @@
+<?php
+
+function assignment_theme($existing, $type, $theme, $path) {
+  return array('location' =>
+           array(
+            'variables' => array(
+                'time' => 'Default time',
+                'location' => null
+            ),
+        )
+    );
+}

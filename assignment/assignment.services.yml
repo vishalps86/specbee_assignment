@@ -1,0 +1,4 @@
+services:
+  assignment.custom_services:
+    class: Drupal\assignment\Services\CustomService
+    arguments: []

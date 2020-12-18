@@ -1,0 +1,7 @@
+assignment.admin_settings:
+  path: '/admin/config/assignment'
+  defaults:
+    _form: '\Drupal\assignment\Form\AssignmentConfigurationForm'
+    _title: 'Location Configuration Form'
+  requirements:
+    _permission: 'administer site configuration'
